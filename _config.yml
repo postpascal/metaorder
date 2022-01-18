@@ -1,0 +1,25 @@
+# Site settings
+title: 元秩序数字科技
+description: 元秩序数字科技有限公司
+# baseurl: "/particle" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: 元秩序
+user_description: 元秩序数字科技有限公司是一家极具创造力的，年轻人的企业，致力于将数字科技带入普通人的生活
+user_title: 数字科技有限公司
+email: metaorder@163.com
+twitter_username: lorem_ipsum
+github_username:  https://github.com/Meta-Universe-Org/
+gplus_username:  lorem_ipsum
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Google-analytics
+google-analytics:
+  id: "UA-215187932-1"
+
+exclude: ['package.json', 'src' , 'node_modules','vendor']
